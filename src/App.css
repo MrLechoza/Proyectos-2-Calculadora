@@ -32,6 +32,7 @@ body {
   background-color: rgb(228, 224, 224);
   display: grid;
   justify-content: center;
+  margin-top: 8%;
 }
 
 main {

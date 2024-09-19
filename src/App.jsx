@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 function Calculadora() {
-  const [display, setDisplay] = useState("");
+  const [display, setDisplay] = useState("")
   const [result, setResult] = useState(0);
 
   const handleClick = (value) => {
@@ -31,7 +31,7 @@ function Calculadora() {
   };
 
   return (
-    <body>
+    <div>
       <main>
         <header>
           <h1>Calculadora</h1>
@@ -105,7 +105,7 @@ function Calculadora() {
           </button>
         </section>
       </main>
-    </body>
+    </div>
   );
 }
 
